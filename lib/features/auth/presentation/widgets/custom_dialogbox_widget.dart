@@ -8,6 +8,7 @@ class CustomDialog {
 
   customDialog() {
     return Get.defaultDialog(
+      titlePadding: EdgeInsets.only(top: 20, bottom: 10),
       title: 'Setup Your Routines',
       titleStyle: TextStyle(fontSize: 20),
       content: Column(
